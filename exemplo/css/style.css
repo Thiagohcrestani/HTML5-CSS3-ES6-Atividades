@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+}
+
+#page-header{
+    background-color: darkslateblue;
+    padding: 20px 40px;
+    color: coral;
+}
+
+#page-footer{
+    background-color: coral;
+    color: darkslateblue;
+    padding: 20px 40px;
+}
+#page-footer div{
+    display: inline;
+}
+
+#page-footer div:last-child{
+    float: right;
+}
+
+#main-menu{
+    text-transform: lowercase;
+    padding: 0px 40px;
+    display: flex;
+    background-color: coral;
+}
+
+#main-menu a{
+    color: darkslateblue;
+    padding: 20px;
+    width: 100px;
+}
+
+#main-menu a:hover{
+    background-color: coral;
+}
+
+a,a:link, a:visited, a:active{
+    color: coral;
+}
