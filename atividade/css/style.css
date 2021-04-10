@@ -1,0 +1,18 @@
+.jumbotron{
+    margin: 0;
+}
+footer.jumbotron{
+    padding: 20px; 
+}
+
+main{
+    padding: 20px 0; 
+}
+.painel{
+
+    background: linear-gradient(to bottom,rgba(116, 116, 116, 0.185) 5%,rgba(116, 116, 116, 0.185) 10%);
+    
+    
+    
+    
+    }

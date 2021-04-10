@@ -1,56 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5, CSS3, JS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <h1>HTML5, CSS3, JS</h1>
-    </header>
-    <nav>
-        <a href="#">Notícias</a>
-        <a href="formulario.html">Formulário</a>
+    <div class="jumbotron">
+        <h1 class="display-4">HTML5, CSS3, JS</h1>
+        <p class="lead">Aplicando Bootstrap</p>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">HTML5, CSS3, JS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Notícias</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="formulario.html">Formulário</a>
+                </li>
     </nav>
     <main>
-    <article>
-        <h1>Estado de SP registra mais de mil mortes por Covid-19 em 24 horas pela terceira vez na semana</h1>
-        <div>
-            <p>27/03/2021 thiago_crestani@hotmail.com</p>
-                <img src="..\img\imagem.jpg" width="300" height="200" alt="Minha Figura">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <article>
+                        <h1>Estado de SP registra mais de mil mortes por Covid-19 em 24 horas pela terceira vez na
+                            semana
+                        </h1>
+                        <div>
+                            <small>27/03/2021</small>
+                            <small class="float-right">thiago_crestani@hotmail.com</small>
+                            <img src="img\imagem.jpg" class="img-fluid" alt="Minha Figura">
+                        </div>
+                        <div>
+                            <p>Média diária de óbitos diários chegou a 619 neste sábado (27), novo recorde desde o
+                                início da
+                                epidemia.</p>
+                        </div>
+                        <a class="btn btn-warning btn-sm float-right" href="https://g1.globo.com/sp/sao-paulo/noticia/2021/03/27/estado-de-sp-registra-mais-de-mil-mortes-por-covid-19-em-24-horas-pela-terceira-vez-na-semana.ghtml">Leia mais</a>
+                    </article>
+                </div>
+                <div class="col-lg-4">
+                    <article>
+                        <h1>Aos 12 anos, menina monta escola durante a pandemia e dá aulas para crianças do Maranhão
+                        </h1>
+                        <div>
+                            <small>27/03/2021</small>
+                            <small class="float-right">thiago_crestani@hotmail.com</small>
+                            <img src="img\imagem2.jpg" class="img-fluid" alt="Minha Figura">
+                        </div>
+                        <div>
+                            <p>Érika Leal montou a 'Escolinha da Esperança' em uma casa de barro no município de Coelho
+                                Neto, cidade a 385 km de São Luís, após uma brincadeira com os colegas. Devido a
+                                suspensão
+                                das aulas por conta da pandemia, hoje a escolinha atende a 20 crianças.</p>
+                        </div>
+                        <a class="btn btn-warning btn-sm float-right" href="https://g1.globo.com/ma/maranhao/vem-ver-pequeno/noticia/2021/03/27/aos-12-anos-menina-monta-escola-durante-a-pandemia-e-da-aulas-para-criancas-do-maranhao.ghtml">Leia mais</a>
+                    </article>
+                </div>
+                <div class="col-lg-4">
+                    <article>
+                        <h1>Facebook bloqueia conta de Nicolás Maduro após vídeo que viola política de desinformação
+                            sobre a
+                            Covid-19</h1>
+                        <div>
+                            <small>27/03/2021</small>
+                            <small class="float-right">thiago_crestani@hotmail.com</small>
+                            <img src="img\imagem3.jpg" class="img-fluid" alt="Minha Figura">
+                        </div>
+                        <div>
+                            <p>Durante um mês, o presidente da Venezuela não poderá publicar mensagens ou fazer
+                                comentários
+                                na plataforma. Segundo a empresa, não é a primeira vez que acontece uma violação à
+                                política de desinformação.</p>
+                        </div>
+                        <a class="btn btn-warning btn-sm float-right" href="https://g1.globo.com/economia/tecnologia/noticia/2021/03/27/facebook-bloqueia-conta-de-nicolas-maduro-apos-video-que-viola-politica-de-desinformacao-sobre-a-covid-19.ghtml">Leia mais</a>
+                    </article>
+                </div>
+            </div>
         </div>
-        <div>
-            <p>Média diária de óbitos diários chegou a 619 neste sábado (27), novo recorde desde o início da epidemia.</p>
-        </div>
-        <a href="https://g1.globo.com/sp/sao-paulo/noticia/2021/03/27/estado-de-sp-registra-mais-de-mil-mortes-por-covid-19-em-24-horas-pela-terceira-vez-na-semana.ghtml">Fonte G1</a>
-    </article>
-    <article>
-        <h1>Aos 12 anos, menina monta escola durante a pandemia e dá aulas para crianças do Maranhão</h1>
-        <div>
-            <p>27/03/2021 thiago_crestani@hotmail.com</p>
-                <img src="..\img\imagem2.jpg" width="300" height="200" alt="Minha Figura">
-        </div>
-        <div>
-            <p>Érika Leal montou a 'Escolinha da Esperança' em uma casa de barro no município de Coelho Neto, cidade a 385 km de São Luís, após uma brincadeira com os colegas. Devido a suspensão das aulas por conta da pandemia, hoje a escolinha atende a 20 crianças.</p>
-        </div>
-        <a href="https://g1.globo.com/ma/maranhao/vem-ver-pequeno/noticia/2021/03/27/aos-12-anos-menina-monta-escola-durante-a-pandemia-e-da-aulas-para-criancas-do-maranhao.ghtml">Fonte G1</a>
-    </article>
-    <article>
-        <h1>Facebook bloqueia conta de Nicolás Maduro após vídeo que viola política de desinformação sobre a Covid-19</h1>
-        <div>
-            <p>27/03/2021 thiago_crestani@hotmail.com</p>
-                <img src="..\img\imagem3.jpg" width="300" height="200" alt="Minha Figura">
-        </div>
-        <div>
-            <p>Durante um mês, o presidente da Venezuela não poderá publicar mensagens ou fazer comentários na plataforma. Segundo a empresa, não é a primeira vez que acontece uma violação à política de desinformação.</p>
-        </div>
-        <a href="https://g1.globo.com/economia/tecnologia/noticia/2021/03/27/facebook-bloqueia-conta-de-nicolas-maduro-apos-video-que-viola-politica-de-desinformacao-sobre-a-covid-19.ghtml">Fonte G1</a>
-    </article>
     </main>
-    <footer>
-        Thiago Henrique Crestani - Desenvolvimento de Aplicações Web e Mobile
+    <footer class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <p class="lead float-left">Thiago Henrique Crestani - Desenvolvimento de Aplicações Web e Mobile</p>
+        </div>
     </footer>
 </body>
+
 </html>
