@@ -5,14 +5,13 @@ footer.jumbotron{
     padding: 20px; 
 }
 
+.alinhar{
+    float: left;
+}
 main{
     padding: 20px 0; 
 }
 .painel{
 
-    background: linear-gradient(to bottom,rgba(116, 116, 116, 0.185) 5%,rgba(116, 116, 116, 0.185) 10%);
-    
-    
-    
-    
-    }
+    background: linear-gradient(to bottom,rgba(190, 190, 190, 0.185) 5%,rgba(190, 190, 190, 0.185) 10%);
+}
