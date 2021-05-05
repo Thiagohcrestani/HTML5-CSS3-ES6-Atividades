@@ -30,6 +30,7 @@ var ajustartotal = 0;
 function calcularProdutos() {
     var total = 0;
     var qtdeTotal = 0;
+    var ajustartotal = 0;
   
 
 
